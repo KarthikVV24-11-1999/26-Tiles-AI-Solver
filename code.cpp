@@ -1,3 +1,7 @@
+//  26-Puzzle Problem 
+//  Language cpp
+//  Karthik Vadlamudi (vv2327) and Shreyas Kilingaru Nadumanae (sk10696)
+
 #include <iostream>
 #include <fstream>
 #include <queue>
@@ -152,7 +156,8 @@ PuzzleBoard* Astar_Algorithm(PuzzleBoard* Start_Board) {                        
 }
 
 int main () {
-    string fileName;                                                                // "fileName" variable consists the name of the input file to be initialised by user
+    string fileName;       
+    cout << "Enter the input filename: ";                                                         // "fileName" variable consists the name of the input file to be initialised by user
     cin >> fileName;
     ifstream inputFile(fileName);
     ofstream outputFile("output.txt");
