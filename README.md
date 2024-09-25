@@ -1,1 +1,1 @@
-# 26-tiles
+# 26 Tiles
